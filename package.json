@@ -1,0 +1,17 @@
+{
+	"name": "bmybbs-webterm",
+	"version": "0.0.1",
+	"description": "A web terminal for BMYBBS.",
+	"main": "src/index.js",
+	"scripts": {
+		"serve": "node src/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": "github:bmybbs/bmybbs-webterm",
+	"author": "IronBlood",
+	"license": "MIT",
+	"dependencies": {
+		"node-pty": "^0.10.1",
+		"ws": "^7.4.6"
+	}
+}
